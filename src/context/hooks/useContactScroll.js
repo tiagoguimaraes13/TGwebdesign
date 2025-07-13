@@ -1,12 +1,11 @@
-// hooks/useContactScroll.js
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 
 const useContactScroll = () => {
   const [currentSection, setCurrentSection] = useState(0);
   const [isScrolling, setIsScrolling] = useState(false);
   
-  // Define contact page sections
-  const sections = ['contact-info', 'contact-form'];
+  // Memoize the sections array so it's stable across renders
+  const sections = useMemo(() => ['contact-info', 'contact-form'], []);
   
   const scrollToSection = useCallback((index) => {
     if (index >= 0 && index < sections.length && !isScrolling) {

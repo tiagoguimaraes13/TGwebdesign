@@ -1,28 +1,32 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Send, Phone, Mail, MapPin } from 'lucide-react';
+
+import useContactScroll from '../../context/hooks/useContactScroll';
 import { useTranslation } from '../../context/LanguageContext';
-import useContactScroll from '../hooks/useContactScroll';
+
 import './Contact.css';
 
 const Contact = () => {
+  // useTranslation returns the entire translations object for current language
   const t = useTranslation();
+
   const { currentSection, scrollToSection, sections } = useContactScroll();
-  
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     subject: '',
-    message: ''
+    message: '',
   });
-  
+
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
 
@@ -30,14 +34,14 @@ const Contact = () => {
     e.preventDefault();
     console.log('Form submitted:', formData);
     setIsSubmitted(true);
-    
+
     setTimeout(() => {
       setIsSubmitted(false);
       setFormData({
         name: '',
         email: '',
         subject: '',
-        message: ''
+        message: '',
       });
     }, 3000);
   };
@@ -46,25 +50,25 @@ const Contact = () => {
     {
       icon: <Phone size={24} />,
       title: t.phone,
-      info: "+372 58 34 9800",
-      delay: 0.2
+      info: '+372 58 34 9800',
+      delay: 0.2,
     },
     {
       icon: <Mail size={24} />,
       title: t.email,
-      info: "info@tgwebdesign.net",
-      delay: 0.4
+      info: 'info@tgwebdesign.net',
+      delay: 0.4,
     },
     {
       icon: <MapPin size={24} />,
       title: t.address,
-      info: "Tallinn, Estonia",
-      delay: 0.6
-    }
+      info: 'Tallinn, Estonia',
+      delay: 0.6,
+    },
   ];
 
   return (
-    <motion.div 
+    <motion.div
       className="contact-container"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -84,8 +88,8 @@ const Contact = () => {
         >
           {t.getInTouch}
         </motion.h1>
-        
-        <motion.div 
+
+        <motion.div
           className="contact-info"
           initial={{ x: -50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
@@ -93,7 +97,7 @@ const Contact = () => {
         >
           <h2>{t.letsTalk}</h2>
           <p>{t.projectVision}</p>
-          
+
           <div className="info-cards">
             {contactInfo.map((item, index) => (
               <motion.div
@@ -121,7 +125,7 @@ const Contact = () => {
         animate={{ opacity: currentSection === 1 ? 1 : 0.3 }}
         transition={{ duration: 0.5 }}
       >
-        <motion.div 
+        <motion.div
           className="contact-form-container"
           initial={{ x: 50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
@@ -138,7 +142,7 @@ const Contact = () => {
                 required
               />
             </div>
-            
+
             <div className="form-group">
               <input
                 type="email"
@@ -149,7 +153,7 @@ const Contact = () => {
                 required
               />
             </div>
-            
+
             <div className="form-group">
               <input
                 type="text"
@@ -160,7 +164,7 @@ const Contact = () => {
                 required
               />
             </div>
-            
+
             <div className="form-group">
               <textarea
                 name="message"
@@ -205,7 +209,8 @@ const Contact = () => {
             title={section}
             initial={false}
             animate={{
-              backgroundColor: currentSection === index ? '#FF6B6B' : 'rgba(255, 255, 255, 0.3)'
+              backgroundColor:
+                currentSection === index ? '#FF6B6B' : 'rgba(255, 255, 255, 0.3)',
             }}
             transition={{ duration: 0.3 }}
           />
