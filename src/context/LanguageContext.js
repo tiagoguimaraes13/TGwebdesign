@@ -1041,32 +1041,10 @@ const languages = [
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState(() => {
-    // Try to get the language from localStorage, fallback to browser language or 'en'
-    const savedLanguage = localStorage.getItem('preferredLanguage');
-    if (savedLanguage && translations[savedLanguage]) {
-      return savedLanguage;
-    }
-    
-    const browserLang = navigator.language.split('-')[0];
-    return translations[browserLang] ? browserLang : 'en';
-  });
-
-    // Add this new state for hint management
-    const [shouldShowHint, setShouldShowHint] = useState(() => {
-      return !localStorage.getItem('languageHintShown');
-    });
-
-  const changeLanguage = (newLanguage) => {
-    setLanguage(newLanguage);
-    localStorage.setItem('preferredLanguage', newLanguage);
-  };
-
-    // Add this new function
-    const dismissLanguageHint = () => {
-      setShouldShowHint(false);
-      localStorage.setItem('languageHintShown', 'true');
-    };
+  const [language, setLanguage] = useState('en');
+  const [shouldShowHint, setShouldShowHint] = useState(false);
+  const changeLanguage = (newLanguage) => { if (translations[newLanguage]) setLanguage(newLanguage); };
+  const dismissLanguageHint = () => setShouldShowHint(false);
 
   const value = {
     language,
