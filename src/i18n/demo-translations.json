@@ -1,0 +1,143 @@
+{
+  "Website language": {
+    "et": "Veebilehe keel",
+    "ru": "Язык сайта",
+    "fi": "Sivuston kieli",
+    "pt": "Idioma do site",
+    "fr": "Langue du site"
+  },
+  "Transport / Quotation experience": {
+    "et": "Transport / Hinnapäring",
+    "ru": "Транспорт / Запрос цены",
+    "fi": "Kuljetus / Tarjouskysely",
+    "pt": "Transportes / Experiência de orçamento"
+  },
+  "Landscaping / Project showcase": {
+    "et": "Haljastus / Projektide esitlus",
+    "ru": "Ландшафт / Проекты",
+    "fi": "Maisemointi / Projektien esittely",
+    "pt": "Paisagismo / Apresentação de projetos"
+  },
+  "Boutique / Shopping concept": {
+    "et": "Butiik / Ostukontseptsioon",
+    "ru": "Бутик / Концепция покупок",
+    "fi": "Boutique / Ostokonsepti",
+    "pt": "Boutique / Conceito de compras"
+  },
+  "Art / Digital collection": {
+    "et": "Kunst / Digitaalne kollektsioon",
+    "ru": "Искусство / Цифровая коллекция",
+    "fi": "Taide / Digitaalinen kokoelma",
+    "pt": "Arte / Coleção digital"
+  },
+  "TG WEB DESIGN / DEMO": {
+    "et": "TG WEB DESIGN / DEMO",
+    "ru": "TG WEB DESIGN / ДЕМО",
+    "fi": "TG WEB DESIGN / DEMO",
+    "pt": "TG WEB DESIGN / DEMONSTRAÇÃO"
+  },
+  "Independent agency portfolio concept. Try the form with fictional details; nothing is sent.": {
+    "et": "Sõltumatu agentuuri portfooliokontseptsioon. Proovi vormi väljamõeldud andmetega; midagi ei saadeta.",
+    "ru": "Независимая концепция портфолио агентства. Попробуйте форму с вымышленными данными; ничего не отправляется.",
+    "fi": "Itsenäinen toimiston portfoliokonsepti. Kokeile lomaketta kuvitteellisilla tiedoilla; mitään ei lähetetä.",
+    "pt": "Conceito independente de portfólio de agência. Experimente o formulário com dados fictícios; nada é enviado."
+  },
+  "Preview enquiry": {
+    "et": "Vaata päringut",
+    "ru": "Предпросмотр заявки",
+    "fi": "Esikatsele kyselyä",
+    "pt": "Pré-visualizar pedido"
+  },
+  "Demo preview complete. No message has been sent.": {
+    "et": "Näidise eelvaade valmis. Sõnumit ei saadetud.",
+    "ru": "Предпросмотр демо завершён. Сообщение не отправлено.",
+    "fi": "Demon esikatselu valmis. Viestiä ei lähetetty.",
+    "pt": "Pré-visualização concluída. Nenhuma mensagem foi enviada."
+  },
+  "TG WEB DESIGN / CREATIVE STUDIO CONCEPT": {
+    "et": "TG WEB DESIGN / LOOVSTUUDIO KONTSEPTSIOON",
+    "ru": "TG WEB DESIGN / КОНЦЕПЦИЯ ТВОРЧЕСКОЙ СТУДИИ",
+    "fi": "TG WEB DESIGN / LUOVAN STUDION KONSEPTI",
+    "pt": "TG WEB DESIGN / CONCEITO DE ESTÚDIO CRIATIVO"
+  },
+  "DESIGN WITH INTENT / BUILD WITH PERSONALITY / DESIGN WITH INTENT / BUILD WITH PERSONALITY /": {
+    "et": "EESMÄRGIPÄRANE DISAIN / ISIKUPÄRANE ARENDUS / EESMÄRGIPÄRANE DISAIN / ISIKUPÄRANE ARENDUS /",
+    "ru": "ОСМЫСЛЕННЫЙ ДИЗАЙН / РАЗРАБОТКА С ХАРАКТЕРОМ / ОСМЫСЛЕННЫЙ ДИЗАЙН / РАЗРАБОТКА С ХАРАКТЕРОМ /",
+    "fi": "SUUNNITTELUA TARKOITUKSELLA / RAKENTAMISTA PERSOONALLA / SUUNNITTELUA TARKOITUKSELLA / RAKENTAMISTA PERSOONALLA /",
+    "pt": "DESIGN COM INTENÇÃO / CRIAR COM PERSONALIDADE / DESIGN COM INTENÇÃO / CRIAR COM PERSONALIDADE /"
+  },
+  "Independent, uncommissioned concepts for real businesses. These are demonstrations, not confirmed client partnerships.": {
+    "et": "Sõltumatud, tellimata kontseptsioonid päris ettevõtetele. Need on demod, mitte kinnitatud kliendipartnerlused.",
+    "ru": "Независимые инициативные концепции для реальных компаний. Это демонстрации, а не подтверждённые клиентские партнёрства.",
+    "fi": "Itsenäiset oma-aloitteiset konseptit oikeille yrityksille. Nämä ovat demoja, eivät vahvistettuja asiakaskumppanuuksia.",
+    "pt": "Conceitos independentes e não encomendados para empresas reais. São demonstrações, não parcerias confirmadas com clientes."
+  },
+  "/ CONCEPT": {
+    "et": "/ KONTSEPTSIOON",
+    "ru": "/ КОНЦЕПЦИЯ",
+    "fi": "/ KONSEPTI",
+    "pt": "/ CONCEITO"
+  },
+  "Digital craft.": {
+    "et": "Digitaalne käsitöö.",
+    "ru": "Цифровое мастерство.",
+    "fi": "Digitaalista käsityötä.",
+    "pt": "Arte digital."
+  },
+  "Human ideas.": {
+    "et": "Inimlikud ideed.",
+    "ru": "Человеческие идеи.",
+    "fi": "Inhimillisiä ideoita.",
+    "pt": "Ideias humanas."
+  },
+  "TG / NEXT CHAPTER": {
+    "et": "TG / JÄRGMINE PEATÜKK",
+    "ru": "TG / СЛЕДУЮЩАЯ ГЛАВА",
+    "fi": "TG / SEURAAVA VAIHE",
+    "pt": "TG / PRÓXIMO CAPÍTULO"
+  },
+  "Menu": {
+    "et": "Menüü",
+    "ru": "Меню",
+    "fi": "Valikko",
+    "pt": "Menu"
+  },
+  "Main navigation": {
+    "et": "Põhinavigeerimine",
+    "ru": "Основная навигация",
+    "fi": "Päänavigointi",
+    "pt": "Navegação principal"
+  },
+  "Independent agency website concept by TOIMU. Portfolio examples are uncommissioned; no enquiries are sent.": {
+    "et": "TOIMU sõltumatu agentuuriveebilehe kontseptsioon. Portfoolionäited on tellimata; päringuid ei saadeta.",
+    "ru": "Независимая концепция сайта агентства от TOIMU. Примеры портфолио инициативные; заявки не отправляются.",
+    "fi": "TOIMUn itsenäinen toimistosivuston konsepti. Portfolion esimerkit ovat oma-aloitteisia; kyselyitä ei lähetetä.",
+    "pt": "Conceito independente de agência por TOIMU. Exemplos de portfólio não encomendados; nenhum pedido é enviado."
+  },
+  "A creative studio website concept, reimagined by TOIMU Technologies OÜ.": {
+    "et": "TOIMU Technologies OÜ loodud loovstuudio veebilehe kontseptsioon uues võtmes.",
+    "ru": "Концепция сайта творческой студии, переосмысленная TOIMU Technologies OÜ.",
+    "fi": "TOIMU Technologies OÜ:n uudistama luovan studion sivustokonsepti.",
+    "pt": "Um conceito de website de estúdio criativo, reinventado por TOIMU Technologies OÜ."
+  },
+  "Independent portfolio demonstration / 2026": {
+    "et": "Sõltumatu portfooliodemo / 2026",
+    "ru": "Независимая демонстрация портфолио / 2026",
+    "fi": "Itsenäinen portfoliodemo / 2026",
+    "pt": "Demonstração independente de portfólio / 2026"
+  },
+  "Website concept": {
+    "pt": "Conceito de website",
+    "fr": "Concept de site",
+    "et": "Veebilehe kontseptsioon",
+    "ru": "Концепция сайта",
+    "fi": "Sivustokonsepti"
+  },
+  "Only your language preference is saved in this browser. Demo form details and carts are not saved.": {
+    "pt": "Apenas o idioma é guardado neste navegador. Os dados dos formulários e carrinhos de demonstração não são guardados.",
+    "fr": "Seule la langue est enregistrée dans ce navigateur. Les données des formulaires et paniers de démonstration ne sont pas enregistrées.",
+    "et": "Brauserisse salvestatakse ainult keelevalik. Näidisvormide andmeid ja ostukorve ei salvestata.",
+    "ru": "В браузере сохраняется только выбор языка. Данные демо-форм и корзин не сохраняются.",
+    "fi": "Selaimeen tallennetaan vain kielivalinta. Demolomakkeiden tietoja ja ostoskoreja ei tallenneta."
+  }
+}
