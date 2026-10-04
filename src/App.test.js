@@ -1,5 +1,5 @@
 import React,{act} from 'react';import {createRoot} from 'react-dom/client';import App from './App';
 global.IS_REACT_ACT_ENVIRONMENT=true;let container,root;
-beforeEach(()=>{window.scrollTo=jest.fn();window.history.replaceState({},'','/');container=document.createElement('div');document.body.appendChild(container);root=createRoot(container);act(()=>root.render(<App/>));});afterEach(()=>{act(()=>root.unmount());container.remove();});
+beforeEach(()=>{localStorage.clear();window.scrollTo=jest.fn();window.history.replaceState({},'','/');container=document.createElement('div');document.body.appendChild(container);root=createRoot(container);act(()=>root.render(<App/>));});afterEach(()=>{act(()=>root.unmount());container.remove();});
 test('portfolio makes the four independent business concepts available',()=>{expect(container.querySelectorAll('.tg-work')).toHaveLength(4);expect(container.textContent).toContain('not confirmed client partnerships');});
 test('language selection still changes the translated navigation and hero',()=>{const select=container.querySelector('select');act(()=>{select.value='pt';select.dispatchEvent(new Event('change',{bubbles:true}));});expect(document.documentElement.lang).toBe('pt');expect(container.querySelector('h1').textContent).toContain('Sonha');});

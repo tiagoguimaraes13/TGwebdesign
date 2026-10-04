@@ -1,3 +1,4 @@
+import {useDemoLanguage} from '../i18n/DemoLanguage';
 import React, { createContext, useContext, useState } from 'react';
 
 const translations = {
@@ -76,7 +77,7 @@ const translations = {
     companyPhone: '+372 58 34 9800',
     companyEmail: 'info@tgwebdesign.net',
     socialMedia: {
-      facebook: 'Follow us on Facebook',  
+      facebook: 'Follow us on Facebook',
       twitter: 'Follow us on Twitter',
       instagram: 'Follow us on Instagram',
       linkedin: 'Connect on LinkedIn'
@@ -908,8 +909,8 @@ const translations = {
 };
 
 const languages = [
-  { 
-    code: 'pt', 
+  {
+    code: 'pt',
     label: 'Português',
     flag: (
       <svg className="flag-icon" viewBox="0 0 640 480">
@@ -921,8 +922,8 @@ const languages = [
       </svg>
     )
   },
-  { 
-    code: 'en', 
+  {
+    code: 'en',
     label: 'English',
     flag: (
       <svg className="flag-icon" viewBox="0 0 640 480">
@@ -1041,7 +1042,7 @@ const languages = [
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState('en');
+  const {language,setLanguage} = useDemoLanguage();
   const [shouldShowHint, setShouldShowHint] = useState(false);
   const changeLanguage = (newLanguage) => { if (translations[newLanguage]) setLanguage(newLanguage); };
   const dismissLanguageHint = () => setShouldShowHint(false);
