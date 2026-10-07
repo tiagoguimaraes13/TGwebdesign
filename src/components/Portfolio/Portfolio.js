@@ -23,14 +23,14 @@ const Portfolio = () => {
       title: t.prt1,
       description: t.prt1Desc,
       video: Video1,
-      url: 'https://miguelamtransportes.netlify.app/' // Add your actual URL here
+      url: 'https://miguel-am.vercel.app/' // Add your actual URL here
     },
     {
       id: 2,
       title: t.prt2,
       description: t.prt2Desc,
       video: Video2,
-      url: 'http://okoagallery.netlify.app/'
+      url: 'https://oko-areact.vercel.app/'
     },
     {
       id: 3,
@@ -44,14 +44,14 @@ const Portfolio = () => {
       title: t.prt4,
       description: t.prt4Desc,
       video: Video4,
-      url: 'https://bcocoon.netlify.app/' 
+      url: 'https://b-cocoon.vercel.app/' 
     },
     {
       id: 5,
       title: t.prt5,
       description: t.prt5Desc,
       video: Video5,
-      url: 'https://cardososarl.netlify.app/' 
+      url: 'https://cardoso-sarl.vercel.app/' 
     }
   ];
 
