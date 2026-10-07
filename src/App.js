@@ -12,22 +12,22 @@ const works = [{
   name: 'Miguel AM Transportes',
   type: 'Transport / Quotation experience',
   image: miguel,
-  url: 'https://miguelamtransportes.netlify.app/'
+  url: 'https://miguel-am.vercel.app/'
 }, {
   name: 'Cardoso Sarl',
   type: 'Landscaping / Project showcase',
   image: cardoso,
-  url: 'https://cardososarl.netlify.app/'
+  url: 'https://cardoso-sarl.vercel.app/'
 }, {
   name: 'B.Cocoon Kids',
   type: 'Boutique / Shopping concept',
   image: cocoon,
-  url: 'https://bcocoon.netlify.app/'
+  url: 'https://b-cocoon.vercel.app/'
 }, {
   name: 'OKOA Gallery',
   type: 'Art / Digital collection',
   image: okoa,
-  url: 'https://okoagallery.netlify.app/'
+  url: 'https://oko-areact.vercel.app/'
 }];
 
 function Contact({
